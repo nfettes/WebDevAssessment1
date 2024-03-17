@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <head>
-    <title>Welcome to Elgin, Scotland</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Playball&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="style.css">
+  <title>Elgin, Scotland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Playball&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
-    <header>
+  <header>
     <nav>
-        <ul>
-            <li><a class="active">Home</a></li>
-            <li><a href="history.html">History of Elgin</a></li>
-            <li><a href="visit.html">Places to Visit</a></li>
-        </ul>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="history.html">History of Elgin</a></li>
+        <li><a href="visit.html">Places to Visit</a></li>
+      </ul>
     </nav>
-    </header>
-
+  </header>
   <div class="banner">
-      <h1>Elgin</h1>
-      <p class="founding-date">Founded in 1136</p>
+    <h1>Elgin</h1>
+    <p class="founding-date">Founded in 1136</p>
   </div>
-
-    
   <div class="image-container">
-      <img src="elgin.jpg" alt="Elgin High Street" width=400 height=250 class="float-right">
-      <p>Elgin High Street</p>
+    <img src="images/elgin.jpg" alt="Elgin High Street" class="float-right" style="width: 600px; height: 450px;">
+    <p>Elgin High Street</p>
   </div>
-
-
   <h2>About Elgin</h2>
   <p>Elgin is a town located in Moray, Scotland, with a population of over 25,000 people.</p>
-
-
-
+  <p>It has a total surface area of 3.66 square miles, and the postcode district is IV30</p>
+  <p>The town straddles the River Lossie and is located on the A96 route, connecting Aberdeen and Inverness.</p>
+  <div class="map-container">
+    <iframe width="600" height="450" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.4112548828125004%2C57.615394059923084%2C-3.243026733398438%2C57.6731794624696&amp;layer=mapnik" style="border: 1px solid black;" title="Map of Elgin"></iframe>
+  </div>
 </body>
 </html>
