@@ -8,6 +8,13 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
 .container {
     display: flex;
 }
